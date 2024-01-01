@@ -93,9 +93,9 @@ Create form **API -** https://portal.mawarid.com.sa/SystemApi/api/v1/categoryreq
 >  - These Application datas are comes from 2 ways, one is from direct create in `Recruitment Project ERP` and another way is from export template and import in bulk from `Recruitment Project.` 
 >  - To Create an Application, call api in application ERP and they return the ApplicationId, that we can save the ApplicationId.
 >  - Any `Update or Create or File upload` is to be done only through the call event application.
->  - `Application ERP Create api` - {{System.FrameworkUrl}}api/v1/recruitment/CreateSelfServiceRequestERP
->  - `Application ERP Update api` - https://bcp.mawarid.com.sa/api/v1/erp/updateApplicationStatus
->  - `Application ERP File Upload (CV Attachment) api` - https://bcp.mawarid.com.sa/api/v1/erp/ExecuteApplicationAttachmentRequest 
+>  `Application ERP Create api` - {{System.FrameworkUrl}}api/v1/recruitment/CreateSelfServiceRequestERP
+>  `Application ERP Update api` - https://bcp.mawarid.com.sa/api/v1/erp/updateApplicationStatus
+>  `Application ERP File Upload (CV Attachment) api` - https://bcp.mawarid.com.sa/api/v1/erp/ExecuteApplicationAttachmentRequest 
 
 ## **API** 
   
@@ -152,8 +152,8 @@ Create form **API -** https://portal.mawarid.com.sa/SystemApi/api/v1/categoryreq
 >  - `Completed` - The shortlisted application has to update status in the `Selected` list in the Application stage by the call event process.
 >  - `Completed` - The shortlisted application has to update status in the `Rejected` list in the Application stage by the call event process.
 >  - ERP has been `Stamped` the shortlisted application and they call our integration api to update application status
->  - `Application Interview ERP Update api` - https://bcp.mawarid.com.sa/api/v1/erp/receiveInterviewLinkForApplication
->  - `Application Interview ERP Create api` - https://bcp.mawarid.com.sa/api/v1/erp/receiveInterviewScheduleForApplication
+>  `Application Interview ERP Update api` - https://bcp.mawarid.com.sa/api/v1/erp/receiveInterviewLinkForApplication
+>  `Application Interview ERP Create api` - https://bcp.mawarid.com.sa/api/v1/erp/receiveInterviewScheduleForApplication
 
 
 ## **Flight Plan**
